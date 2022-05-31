@@ -1,12 +1,12 @@
 let userName = window.prompt('Please enter your name:')
 let userScore = 0
+let playAgain = true
 
 function playGame()
 {
 
-for (let i > 0; i < questions.length; i++)
+for (let i = 0; i < questions.length; i++)
 {
-    console.log(questions[i])
     let questions = questions[i]
     let userAnswer = window.prompt(questions.text)
     if (userAnswer === questions.correctAnswer)
